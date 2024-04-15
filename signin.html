@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apartments.com: Apartments and Homes for Rent</title>
+    <link rel="shortcut icon" href="/img/faviconv2.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f783581543.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header class="mainHeader mortar-wrapper" id="mainHeader">
+      <nav class="mainHeaderNavigation" id="mainHeaderNavigation">
+        <div class="menuSection" id="menuSectionLink" tabindex="0">
+          <button
+            id="headerMenuLink"
+            type="button"
+            class="dropdownToggle primary homeBtn"
+          >
+            <i id="headerMeunIcon" class="storyicon hamburgerStoryIcon"></i>
+            <span id="headerMenuLabel">Menu</span>
+          </button>
+          <div id="menuNavWrapper" class="menuNavWrapper">
+            <div id="menuNavContainer" style="display: none">
+              <div class="menuOpenWrapper">
+                <span id="menuHeader" class="menuHeader"
+                  ><i class="hamburgerBittenIcon"></i
+                  ><span class="menuText"></span
+                ></span>
+                <ul id="menuNavigation" class="menuNavigation" tabindex="0">
+                  <li tabindex="0">
+                    <a href="#" class="expandable" data-requirelogin="false">
+                      Renter Tools
+                      <i class="storyicon right2StoryIcon"></i>
+                    </a>
+                    <ul class="submenu tools" tabindex="0">
+                      <li tabindex="0">
+                        <a href="">Favorites</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Saved Searches</a>
+                      </li>
+                      <li id="rentCalculator" tabindex="0">
+                        <a href="">Rental Calculator</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li id="manageRentalsContainer" tabindex="0">
+                    <a id="menuNavLnkManageRental" href="">Manage Rentals</a>
+                  </li>
+
+                  <li id="menuNavItemContainer1" tabindex="0">
+                    <a href="" class="expandable" data-requirelogin="false">
+                      Apartments For Rent<i
+                        class="storyicon right2StoryIcon"
+                      ></i>
+                      <i class="storyicon addStoryIcon expand-icon"></i
+                      ><i class="storyicon minusStoryIcon expand-icon"></i>
+                    </a>
+                    <ul class="submenu properties">
+                      <li tabindex="0">
+                        <a href="">Atlanta Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Austin Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Chicago Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Dallas Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Houston Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Los Angeles Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Miami Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">New York Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Orlando Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Seattle Apartments for Rent</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menuNavItemContainer2" tabindex="0">
+                    <a href="" class="expandable" data-requirelogin="false">
+                      Houses For Rent<i class="storyicon right2StoryIcon"></i>
+                      <i class="storyicon addStoryIcon expand-icon"></i
+                      ><i class="storyicon minusStoryIcon expand-icon"></i>
+                    </a>
+                    <ul class="submenu properties">
+                      <li tabindex="0">
+                        <a href="">Atlanta Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Charlotte Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Dallas Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Houston Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Las Vegas Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Los Angeles Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Nashville Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">New Jersey Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Orlando Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Phoenix Houses For Rent</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menuNavItemContainer3" tabindex="0">
+                    <a href="" class="expandable" data-requirelogin="false">
+                      Condos For Rent<i class="storyicon right2StoryIcon"></i>
+                      <i class="storyicon addStoryIcon expand-icon"></i
+                      ><i class="storyicon minusStoryIcon expand-icon"></i>
+                    </a>
+                    <ul class="submenu properties">
+                      <li tabindex="0">
+                        <a href="">Atlanta Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Chicago Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Dallas Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a>Houston Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Las Vegas Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Los Angeles Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Miami Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Orlando Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Phoenix Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">San Diego Condos for Rent</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menuNavItemContainer4" tabindex="0">
+                    <a href="" class="expandable" data-requirelogin="false">
+                      Townhomes For Rent<i
+                        class="storyicon right2StoryIcon"
+                      ></i>
+                      <i class="storyicon addStoryIcon expand-icon"></i
+                      ><i class="storyicon minusStoryIcon expand-icon"></i>
+                    </a>
+                    <ul class="submenu properties">
+                      <li tabindex="0">
+                        <a href="">Atlanta Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Austin Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Charlotte Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Dallas Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Houston Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Las Vegas Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Nashville Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Phoenix Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Raleigh Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">San Antonio Townhomes for Rent</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li tabindex="0">
+                    <a
+                      id="menuNavHelpCenter"
+                      target="_blank"
+                      href=""
+                      data-requirelogin="false"
+                      >Help Center</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-switch-language-wrapper mortar-wrapper">
+          <a
+            href=""
+            title="English"
+            data-culture="en-US"
+            class="headerSwitchLanguage header-is-selected-language"
+          >
+            <i class="storyicon externalWebsiteStoryIcon"></i>
+            <span>English</span>
+          </a>
+          <div
+            class="language-pop modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modal-header"
+            aria-describedby="modal-description"
+          >
+            <p id="modal-header" class="header3">Language</p>
+            <div class="modal-actions">
+              <a
+                href=""
+                title="English"
+                data-culture="en-US"
+                class="btn btn-sm btn-pill culture header-pill-selected"
+              >
+                <span>English</span>
+              </a>
+              <a
+                href=""
+                title="Español"
+                data-culture="es-US"
+                data-url="https://www.apartments.com/es/"
+                class="btn btn-sm btn-pill culture"
+              >
+                <span>Español</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="logoSpacer"></div>
+        <div class="logo">
+          <a
+            href=""
+            aria-label="Apartments.com logo visited to home link"
+            id="homeLink"
+          >
+            <img src="./img/nav-logo.png" alt="Apartments.com Logo" />
+          </a>
+        </div>
+
+        <div class="loginPrevNextWrapper">
+          <div id="headerLoginSection" class="loginSection">
+            <a
+              id="headerManageRental"
+              href="javascript:void(0);"
+              class="headerSignIn"
+              title="Manage Rentals"
+              >Manage Rentals &nbsp;&nbsp;&nbsp;&nbsp;</a
+            >
+            <a
+              href="javascript:void(0);"
+              class="js-headerSignUp headerSignUp"
+              title="Sign Up"
+              >Sign Up</a
+            >
+            <span>/</span>
+            <a
+              href="/signin.html"
+              class="js-headerSignin headerSignIn"
+              title="Sign In"
+              >Sign In</a
+            >
+          </div>
+
+          <a
+            id="headerAddProperty"
+            href="javascript:void(0);"
+            title="Add a Property"
+            aria-label="Add a Property link"
+          >
+            <span>Add a Property</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div id="mainMenu" class="mainMenu">
+      <div class="mortar-wrapper" style="width: 100%">
+        <ul id="userOptions" class="top-menu">
+          <li class="signIn">
+            <span
+              class="js-headerSignIn signInWrapper"
+              data-requirelogin="true"
+              href="/signin.html"
+              rel="nofollow"
+              >Sign In</span
+            >
+          </li>
+          <li>
+            <span
+              id="headerSignIn"
+              class="js-headerSignUp signInWrapper"
+              data-requirelogin="true"
+              href="javascript:void(0);"
+              rel="nofollow"
+              >Sign Up</span
+            >
+          </li>
+
+          <li>
+            <a href="">Add a Property</a>
+          </li>
+        </ul>
+        <ul class="top-menu toolsGroup">
+          <li class="toolLinks">
+            <a
+              id="menuNavRenterTools"
+              data-requirelogin="false"
+              class="expandable"
+              href="javascript:void(0);"
+              >Renter Tools</a
+            >
+          </li>
+          <li id="manageRentalsContainer" class="toolLinks">
+            <a id="menuNavLnkManageRental" href="">Manage Rentals</a>
+          </li>
+
+          <li class="toolLinks">
+            <a id="helpCenter" href="" target="_blank">Help Center</a>
+          </li>
+        </ul>
+        <ul class="top-menu toolsGroup">
+          <li class="toolLinks">
+            <a
+              id="languageSelectorGroup"
+              data-requirelogin="false"
+              class="expandable"
+              href="javascript:void(0);"
+              >Language</a
+            >
+          </li>
+        </ul>
+        <ul id="propertyStyle" class="top-menu">
+          <li id="menuNavItemContainer1" tabindex="0">
+            <a href="" class="expandable" data-requirelogin="false">
+              Apartments For Rent
+            </a>
+          </li>
+          <li id="menuNavItemContainer2" tabindex="0">
+            <a href="" class="expandable" data-requirelogin="false">
+              Houses For Rent
+            </a>
+          </li>
+          <li id="menuNavItemContainer3" tabindex="0">
+            <a href="" class="expandable" data-requirelogin="false">
+              Condos For Rent
+            </a>
+          </li>
+          <li id="menuNavItemContainer4" tabindex="0">
+            <a href="" class="expandable" data-requirelogin="false">
+              Townhomes For Rent
+            </a>
+          </li>
+        </ul>
+        <ul class="top-menu toolsGroup">
+          <li class="toolLinks">
+            <button
+              id="openInApp"
+              class="btn btn-md btn-primary"
+              onclick="window.open('https://itunes.apple.com/app/id319836632', '_blank')"
+            >
+              <i class="storyicon comMobileStoryIcon"></i>
+              Open in App
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header class="mainHeader headerWrapper sec mortar-wrapper" id="mainHeader">
+      <button
+        id="mainMenuButton"
+        class="mainMenuButton"
+        style="font-size: 37px"
+        onclick="addExtraClass()"
+      >
+        <i class="storyicon hamburgerStoryIcon"></i>
+      </button>
+      <div class="logo">
+        <img src="./img/nav-logo.png" alt="" />
+      </div>
+    </header>
+
+    <section class="loginn margin">
+      <h2>Sign into your account</h2>
+      <p>or, <a href="">create an account</a></p>
+
+      <form action="" class="login">
+        <label for="email">Email Address</label>
+        <input type="email" name="" id="email" />
+        <label for="password">Password</label>
+        <input type="password" name="" id="password" />
+        <a class="right" href="">Forgot your password?</a>
+        <button class="btn-sec">Sign In</button>
+      </form>
+      <div class="or">or</div>
+      <div class="buttons-login">
+        <button style="background-image: url(./img/google.svg)">
+          Continue with Google
+        </button>
+        <button style="background-image: url(./img/facebook.svg)">
+          Continue with Facebook
+        </button>
+        <button style="background-image: url(./img/apple.svg)">
+          Continue with Apple
+        </button>
+      </div>
+      <p>By signing in, I accept the <a href="">Terms of Use</a></p>
+    </section>
+    <script>
+      function addClass() {
+        var element = document.getElementById("linksSection");
+        element.classList.toggle("clamped");
+      }
+      function addExtraClass() {
+        var element = document.getElementById("mainMenu");
+        element.classList.toggle("show");
+      }
+    </script>
+
+    <script src="sigin.js"></script>
+  </body>
+</html>

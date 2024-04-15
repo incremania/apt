@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apartments.com: Apartments and Homes for Rent</title>
+    <link rel="shortcut icon" href="/img/faviconv2.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f783581543.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header class="mainHeader mortar-wrapper" id="mainHeader">
+      <nav class="mainHeaderNavigation" id="mainHeaderNavigation">
+        <div class="menuSection" id="menuSectionLink" tabindex="0">
+          <button
+            id="headerMenuLink"
+            type="button"
+            class="dropdownToggle primary homeBtn"
+          >
+            <i id="headerMeunIcon" class="storyicon hamburgerStoryIcon"></i>
+            <span id="headerMenuLabel">Menu</span>
+          </button>
+          <div id="menuNavWrapper" class="menuNavWrapper">
+            <div id="menuNavContainer" style="display: none">
+              <div class="menuOpenWrapper">
+                <span id="menuHeader" class="menuHeader"
+                  ><i class="hamburgerBittenIcon"></i
+                  ><span class="menuText"></span
+                ></span>
+                <ul id="menuNavigation" class="menuNavigation" tabindex="0">
+                  <li tabindex="0">
+                    <a href="#" class="expandable" data-requirelogin="false">
+                      Renter Tools
+                      <i class="storyicon right2StoryIcon"></i>
+                    </a>
+                    <ul class="submenu tools" tabindex="0">
+                      <li tabindex="0">
+                        <a href="">Favorites</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Saved Searches</a>
+                      </li>
+                      <li id="rentCalculator" tabindex="0">
+                        <a href="">Rental Calculator</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li id="manageRentalsContainer" tabindex="0">
+                    <a id="menuNavLnkManageRental" href="">Manage Rentals</a>
+                  </li>
+
+                  <li id="menuNavItemContainer1" tabindex="0">
+                    <a href="" class="expandable" data-requirelogin="false">
+                      Apartments For Rent<i
+                        class="storyicon right2StoryIcon"
+                      ></i>
+                      <i class="storyicon addStoryIcon expand-icon"></i
+                      ><i class="storyicon minusStoryIcon expand-icon"></i>
+                    </a>
+                    <ul class="submenu properties">
+                      <li tabindex="0">
+                        <a href="">Atlanta Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Austin Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Chicago Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Dallas Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Houston Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Los Angeles Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Miami Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">New York Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Orlando Apartments for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Seattle Apartments for Rent</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menuNavItemContainer2" tabindex="0">
+                    <a href="" class="expandable" data-requirelogin="false">
+                      Houses For Rent<i class="storyicon right2StoryIcon"></i>
+                      <i class="storyicon addStoryIcon expand-icon"></i
+                      ><i class="storyicon minusStoryIcon expand-icon"></i>
+                    </a>
+                    <ul class="submenu properties">
+                      <li tabindex="0">
+                        <a href="">Atlanta Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Charlotte Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Dallas Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Houston Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Las Vegas Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Los Angeles Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Nashville Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">New Jersey Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Orlando Houses For Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Phoenix Houses For Rent</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menuNavItemContainer3" tabindex="0">
+                    <a href="" class="expandable" data-requirelogin="false">
+                      Condos For Rent<i class="storyicon right2StoryIcon"></i>
+                      <i class="storyicon addStoryIcon expand-icon"></i
+                      ><i class="storyicon minusStoryIcon expand-icon"></i>
+                    </a>
+                    <ul class="submenu properties">
+                      <li tabindex="0">
+                        <a href="">Atlanta Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Chicago Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Dallas Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a>Houston Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Las Vegas Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Los Angeles Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Miami Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Orlando Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Phoenix Condos for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">San Diego Condos for Rent</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li id="menuNavItemContainer4" tabindex="0">
+                    <a href="" class="expandable" data-requirelogin="false">
+                      Townhomes For Rent<i
+                        class="storyicon right2StoryIcon"
+                      ></i>
+                      <i class="storyicon addStoryIcon expand-icon"></i
+                      ><i class="storyicon minusStoryIcon expand-icon"></i>
+                    </a>
+                    <ul class="submenu properties">
+                      <li tabindex="0">
+                        <a href="">Atlanta Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Austin Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Charlotte Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Dallas Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Houston Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Las Vegas Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Nashville Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Phoenix Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">Raleigh Townhomes for Rent</a>
+                      </li>
+                      <li tabindex="0">
+                        <a href="">San Antonio Townhomes for Rent</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li tabindex="0">
+                    <a
+                      id="menuNavHelpCenter"
+                      target="_blank"
+                      href=""
+                      data-requirelogin="false"
+                      >Help Center</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-switch-language-wrapper mortar-wrapper">
+          <a
+            href=""
+            title="English"
+            data-culture="en-US"
+            class="headerSwitchLanguage header-is-selected-language"
+          >
+            <i class="storyicon externalWebsiteStoryIcon"></i>
+            <span>English</span>
+          </a>
+          <div
+            class="language-pop modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modal-header"
+            aria-describedby="modal-description"
+          >
+            <p id="modal-header" class="header3">Language</p>
+            <div class="modal-actions">
+              <a
+                href=""
+                title="English"
+                data-culture="en-US"
+                class="btn btn-sm btn-pill culture header-pill-selected"
+              >
+                <span>English</span>
+              </a>
+              <a
+                href=""
+                title="Español"
+                data-culture="es-US"
+                data-url="https://www.apartments.com/es/"
+                class="btn btn-sm btn-pill culture"
+              >
+                <span>Español</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="logoSpacer"></div>
+        <div class="logo">
+          <a
+            href=""
+            aria-label="Apartments.com logo visited to home link"
+            id="homeLink"
+          >
+            <img src="./img/nav-logo.png" alt="Apartments.com Logo" />
+          </a>
+        </div>
+
+        <div class="loginPrevNextWrapper">
+          <div id="headerLoginSection" class="loginSection">
+            <a
+              id="headerManageRental"
+              href="javascript:void(0);"
+              class="headerSignIn"
+              title="Manage Rentals"
+              >Manage Rentals &nbsp;&nbsp;&nbsp;&nbsp;</a
+            >
+            <a
+              href="javascript:void(0);"
+              class="js-headerSignUp headerSignUp"
+              title="Sign Up"
+              >Sign Up</a
+            >
+            <span>/</span>
+            <a
+              href="/signin.html"
+              class="js-headerSignin headerSignIn"
+              title="Sign In"
+              >Sign In</a
+            >
+          </div>
+
+          <a
+            id="headerAddProperty"
+            href="javascript:void(0);"
+            title="Add a Property"
+            aria-label="Add a Property link"
+          >
+            <span>Add a Property</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div id="mainMenu" class="mainMenu show">
+      <div class="mortar-wrapper" style="width: 100%">
+        <ul id="userOptions" class="top-menu">
+          <li class="signIn">
+            <span
+              class="js-headerSignIn signInWrapper"
+              data-requirelogin="true"
+              href="/signin.html"
+              rel="nofollow"
+              >Sign In</span
+            >
+          </li>
+          <li>
+            <span
+              id="headerSignIn"
+              class="js-headerSignUp signInWrapper"
+              data-requirelogin="true"
+              href="javascript:void(0);"
+              rel="nofollow"
+              >Sign Up</span
+            >
+          </li>
+
+          <li>
+            <a href="">Add a Property</a>
+          </li>
+        </ul>
+        <ul class="top-menu toolsGroup">
+          <li class="toolLinks">
+            <a
+              id="menuNavRenterTools"
+              data-requirelogin="false"
+              class="expandable"
+              href="javascript:void(0);"
+              >Renter Tools</a
+            >
+          </li>
+          <li id="manageRentalsContainer" class="toolLinks">
+            <a id="menuNavLnkManageRental" href="">Manage Rentals</a>
+          </li>
+
+          <li class="toolLinks">
+            <a id="helpCenter" href="" target="_blank">Help Center</a>
+          </li>
+        </ul>
+        <ul class="top-menu toolsGroup">
+          <li class="toolLinks">
+            <a
+              id="languageSelectorGroup"
+              data-requirelogin="false"
+              class="expandable"
+              href="javascript:void(0);"
+              >Language</a
+            >
+          </li>
+        </ul>
+        <ul id="propertyStyle" class="top-menu">
+          <li id="menuNavItemContainer1" tabindex="0">
+            <a href="" class="expandable" data-requirelogin="false">
+              Apartments For Rent
+            </a>
+          </li>
+          <li id="menuNavItemContainer2" tabindex="0">
+            <a href="" class="expandable" data-requirelogin="false">
+              Houses For Rent
+            </a>
+          </li>
+          <li id="menuNavItemContainer3" tabindex="0">
+            <a href="" class="expandable" data-requirelogin="false">
+              Condos For Rent
+            </a>
+          </li>
+          <li id="menuNavItemContainer4" tabindex="0">
+            <a href="" class="expandable" data-requirelogin="false">
+              Townhomes For Rent
+            </a>
+          </li>
+        </ul>
+        <ul class="top-menu toolsGroup">
+          <li class="toolLinks">
+            <button
+              id="openInApp"
+              class="btn btn-md btn-primary"
+              onclick="window.open('https://itunes.apple.com/app/id319836632', '_blank')"
+            >
+              <i class="storyicon comMobileStoryIcon"></i>
+              Open in App
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header class="mainHeader headerWrapper sec mortar-wrapper" id="mainHeader">
+      <button
+        id="mainMenuButton"
+        class="mainMenuButton"
+        style="font-size: 37px"
+        onclick="addExtraClass()"
+      >
+        <i class="storyicon hamburgerStoryIcon"></i>
+      </button>
+      <div class="logo">
+        <img src="./img/nav-logo.png" alt="" />
+      </div>
+    </header>
+    <section class="header">
+      <div class="hero">
+        <img src="./img/header.jpeg" alt="header" style="width: 100%" />
+        <div class="hero_txt">
+          <h1>Discover Your New Home</h1>
+          <h5>Helping 100 million renters find their perfect fit.</h5>
+          <div class="searchbox">
+            <input
+              type="text"
+              id="quickSearchLookup"
+              class="quickSearchLookup"
+              autocorrect="false"
+              autocomplete="off"
+              placeholder="Chicago, IL"
+            />
+            <button>Search</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="explore margin">
+      <h2>Explore Rentals in Chicago, IL</h2>
+      <div class="rentals">
+        <div class="card">
+          <div class="row">
+            <img src="./img/img1.jpeg" alt="" />
+            <h6>Presidential Towers</h6>
+            <p>
+              555 W Madison St, <br />
+              Chicago, IL 60661
+            </p>
+            <p>Studio - 2 Beds | $1,600 - $6,135</p>
+          </div>
+          <div class="row">
+            <img src="./img/img2.jpeg" alt="" />
+            <h6>Spoke</h6>
+            <p>
+              728 N Morgan St, <br />
+              Chicago, IL 60642
+            </p>
+            <p>Studio - 3 Beds | $1,942 - $6,188</p>
+          </div>
+          <div class="row">
+            <img src="./img/img3.jpeg" alt="" />
+            <h6>Mondial River West</h6>
+            <p>
+              910 W Huron St, <br />
+              Chicago, IL 60642
+            </p>
+            <p>1-4 Beds | $3,432 - $9,000</p>
+          </div>
+          <div class="row">
+            <img src="./img/img4.jpeg" alt="" />
+            <h6>Shoreham and Tides</h6>
+            <p>
+              400 E South Water St, <br />
+              Chicago, IL 60601
+            </p>
+            <p>Studio - 2 Beds | $2,055 - $6,185</p>
+          </div>
+        </div>
+
+        <button class="view">View More</button>
+      </div>
+    </section>
+    <section class="listing margin">
+      <h2>The Most Rental Listings</h2>
+      <p>
+        Choose from over 1 million apartments, houses, condos, and townhomes for
+        rent.
+      </p>
+      <div class="img_card">
+        <div class="text">
+          <div class="text-wrap">
+            <h3>Renting Made Simple</h3>
+            <p>
+              Browse the highest quality listings, apply online, sign your
+              lease, and even pay your rent from any device.
+            </p>
+            <a href="">Find Out More</a>
+          </div>
+        </div>
+        <img src="./img/img5.png" alt="" />
+      </div>
+    </section>
+    <section class="discover margin">
+      <h2>
+        Discover Homeownership on
+        <a
+          href=""
+          target="_blank"
+          title="Start Your Search"
+          class="widget-link"
+          id="homes-logo-start-search"
+          data-ga-label="home_ownership_widget_click"
+        >
+        </a>
+      </h2>
+      <p>
+        Renting is great, but maybe you’re thinking about buying a home instead.
+        We want you to find the right place. That’s why our sister site,
+        Homes.com, is designed to help you find your dream home, even if you’re
+        a first time buyer.
+      </p>
+      <div class="img_card">
+        <div class="text">
+          <div class="text-wrap">
+            <h3>Explore Your Options</h3>
+            <p>
+              Deciding to become a homeowner is a big deal! Luckily, with
+              Homes.com, you get the most accurate homes for sale property data,
+              an agent directory, and collaboration tools to browse with your
+              agent and co-shopper to help you make the right decision.
+            </p>
+            <a href="">Start Your Search</a>
+          </div>
+        </div>
+        <img src="./img/img6.jpeg" alt="" />
+      </div>
+    </section>
+    <section class="manage margin">
+      <h2>The Perfect Place to Manage Your Property</h2>
+      <p>
+        Work with the best suite of property management tools on the market.
+      </p>
+      <div class="img_card">
+        <div class="text">
+          <div class="text-wrap">
+            <h3>Advertise Your Rental</h3>
+            <p>
+              Connect with more than 75 million renters looking for new homes
+              using our comprehensive marketing platform.
+            </p>
+            <a href="">List Your Property</a>
+          </div>
+        </div>
+        <img src="./img/img7.png" alt="" />
+      </div>
+      <div class="img_card">
+        <img src="./img/img8.png" alt="" />
+
+        <div class="text">
+          <div class="text-wrap">
+            <h3>Lease 100% Online</h3>
+            <p>
+              Accept applications, process rent payments online, and sign
+              digital leases all powered on a single platform.
+            </p>
+            <a href="">Manage Your Property</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="easy margin">
+      <h2>Renting Made Easy for Residents and Property Managers</h2>
+      <p>
+        Our articles, guides, and videos help you through the process, start to
+        finish.
+      </p>
+      <div class="img_card">
+        <div class="text">
+          <div class="text-wrap">
+            <h3>Tips for Renters</h3>
+            <p>
+              Find answers to all of your renting questions with the best
+              renter’s guide in the galaxy.
+            </p>
+            <a href="">Browse Articles</a>
+          </div>
+        </div>
+        <img src="./img/img9.png" alt="" />
+      </div>
+      <div class="img_card">
+        <img src="./img/img11.png" alt="" />
+        <div class="text">
+          <div class="text-wrap">
+            <h3>Property Manager Resources</h3>
+            <p>
+              Stay up-to-date using our tips and guides on rent payments,
+              leasing, management solutions, and more.
+            </p>
+            <a href="">Stay Informed</a>
+          </div>
+        </div>
+      </div>
+      <div class="img_card">
+        <div class="text">
+          <div class="text-wrap">
+            <h3>Take Us With You</h3>
+            <p>
+              Keep <a href="/">Apartments.com</a> in the palm of your hand
+              throughout your rental journey.
+            </p>
+            <div class="download">
+              <a
+                href=""
+                style="background-image: url(/img/apple-badge.svg)"
+              ></a>
+              <a href="" style="background-image: url(/img/gplay.svg)"></a>
+            </div>
+          </div>
+        </div>
+        <img src="./img/img12.png" alt="" />
+      </div>
+      <p class="search">
+        Search over 1 million listings including <a href="">apartments</a>,
+        <a href="">houses</a>, <a href="">condos</a>, and
+        <a href="">townhomes</a> available for rent. You’ll find your next home,
+        in any style you prefer.
+      </p>
+    </section>
+    <section id="linksSection" class="linksSection margin">
+      <div class="clearfix">
+        <div class="linksColumn">
+          <h3>Top Apartment Searches</h3>
+          <ul>
+            <li>
+              <a
+                href="/near-me/apartments-for-rent/"
+                title="Nearby Apartments for Rent"
+                >Apartments near me</a
+              >
+            </li>
+            <li>
+              <a
+                href="/near-me/cheap-apartments-for-rent/"
+                title="Nearby Cheap Apartments for Rent"
+                >Cheap Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/atlanta-ga/" title="Atlanta Apartments for Rent"
+                >Atlanta Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/austin-tx/" title="Austin, TX Apartments for Rent"
+                >Austin Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/boston-ma/" title="Boston, MA Apartments for Rent"
+                >Boston Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/chicago-il/" title="Chicago, IL Apartments for Rent"
+                >Chicago Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/denver-co/" title="Denver, CO Apartments for Rent"
+                >Denver Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/edmonton-ab/" title="Edmonton, AB Apartments for Rent"
+                >Edmonton Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/las-vegas-nv/" title="Las Vegas, NV Apartments for Rent"
+                >Las Vegas Apartments</a
+              >
+            </li>
+            <li>
+              <a
+                href="/los-angeles-ca/"
+                title="Los Angeles, CA Apartments for Rent"
+                >Los Angeles Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/miami-fl/" title="Miami, FL Apartments for Rent"
+                >Miami Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/new-york-ny/" title="Apartments for Rent in NYC"
+                >NYC Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/san-diego-ca/" title="San Diego, CA Apartments for Rent"
+                >San Diego Apartments</a
+              >
+            </li>
+            <li>
+              <a
+                href="/san-francisco-ca/"
+                title="San Francisco , CA Apartments for Rent"
+                >San Francisco Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/seattle-wa/" title="Seattle, WA Apartments for Rent"
+                >Seattle Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/toronto-on/" title="Toronto, ON Rentals"
+                >Toronto Apartments</a
+              >
+            </li>
+            <li>
+              <a href="/washington-dc/" title="Washington DC Rentals"
+                >Washington DC Apartments</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="linksColumn">
+          <h3>House Rentals</h3>
+          <ul>
+            <li>
+              <a href="/near-me/houses-for-rent/" title="Nearby Houses for rent"
+                >Houses for rent Near Me</a
+              >
+            </li>
+            <li>
+              <a href="/houses/atlanta-ga/" title="Atlanta, GA House Rentals"
+                >Houses for rent Atlanta</a
+              >
+            </li>
+            <li>
+              <a href="/houses/austin-tx/" title="Austin, TX House Rentals"
+                >Houses for rent Austin</a
+              >
+            </li>
+            <li>
+              <a
+                href="/houses/charlotte-nc/"
+                title="Charlotte, NC House Rentals"
+                >Houses for rent Charlotte</a
+              >
+            </li>
+            <li>
+              <a href="/houses/dallas-tx/" title="Dallas, TX House Rentals"
+                >Houses for rent Dallas</a
+              >
+            </li>
+            <li>
+              <a href="/houses/houston-tx/" title="Houston, TX House Rentals"
+                >Houses for rent Houston</a
+              >
+            </li>
+            <li>
+              <a
+                href="/houses/indianapolis-in/"
+                title="Indianapolis, IN House Rentals"
+                >Houses for rent Indianapolis</a
+              >
+            </li>
+            <li>
+              <a
+                href="/houses/jacksonville-fl/"
+                title="Jacksonville, FL House Rentals"
+                >Houses for rent Jacksonville</a
+              >
+            </li>
+            <li>
+              <a href="/houses/las-vegas-nv/" title="Vegas, NV House Rentals"
+                >Houses for rent Las Vegas</a
+              >
+            </li>
+            <li>
+              <a
+                href="/houses/los-angeles-ca/"
+                title="Angeles, CA House Rentals"
+                >Houses for rent Los Angeles</a
+              >
+            </li>
+            <li>
+              <a href="/houses/memphis-tn/" title="Memphis, TN House Rentals"
+                >Houses for rent Memphis</a
+              >
+            </li>
+            <li>
+              <a
+                href="/houses/nashville-tn/"
+                title="Nashville, TN House Rentals"
+                >Houses for rent Nashville</a
+              >
+            </li>
+            <li>
+              <a href="/houses/orlando-fl/" title="Orlando, FL House Rentals"
+                >Houses for rent Orlando</a
+              >
+            </li>
+            <li>
+              <a href="/houses/phoenix-az/" title="Phoenix, AZ House Rentals"
+                >Houses for rent Phoenix</a
+              >
+            </li>
+            <li>
+              <a
+                href="/houses/san-antonio-tx/"
+                title="Antonio, TX House Rentals"
+                >Houses for rent San Antonio</a
+              >
+            </li>
+            <li>
+              <a href="/houses/seattle-wa/" title="Seattle, WA House Rentals"
+                >Houses for rent Seattle</a
+              >
+            </li>
+            <li>
+              <a href="/houses/tampa-fl/" title="Tampa, FL House Rentals"
+                >Houses for rent Tampa</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="linksColumn linksBorderColumn">
+          <h3>Condo &amp; Townhome Rentals</h3>
+          <ul>
+            <li>
+              <a href="/near-me/condos-for-rent/" title="Nearby Condos for Rent"
+                >Condos For Rent Near Me</a
+              >
+            </li>
+            <li>
+              <a href="/condos/atlanta-ga/" title="Atlanta, GA Condos for Rent"
+                >Condos for rent Atlanta</a
+              >
+            </li>
+            <li>
+              <a href="/condos/chicago-il/" title="Chicago, IL Condos for Rent"
+                >Condos for rent Chicago</a
+              >
+            </li>
+            <li>
+              <a
+                href="/condos/las-vegas-nv/"
+                title="Las Vegas, NV Condos for Rent"
+                >Condos for rent Las Vegas</a
+              >
+            </li>
+            <li>
+              <a href="/condos/miami-fl/" title="Miami, FL Condos for Rent"
+                >Condos for rent Miami</a
+              >
+            </li>
+            <li>
+              <a
+                href="/condos/san-diego-ca/"
+                title="San Diego, CA Condos for Rent"
+                >Condos for rent San Diego</a
+              >
+            </li>
+            <li>
+              <a
+                href="/condos/sarasota-fl/"
+                title="Sarasota, FL Condos for Rent"
+                >Condos for rent Sarasota</a
+              >
+            </li>
+            <li>
+              <a
+                href="/near-me/townhomes-for-rent/"
+                title="Nearby Townhomes for Rent"
+                >Townhomes near me</a
+              >
+            </li>
+            <li>
+              <a
+                href="/townhomes/atlanta-ga/"
+                title="Atlanta, GA Townhomes for Rent"
+                >Townhomes for rent Atlanta</a
+              >
+            </li>
+            <li>
+              <a
+                href="/townhomes/austin-tx/"
+                title="Austin, TX Townhomes for Rent"
+                >Townhomes for rent Austin</a
+              >
+            </li>
+            <li>
+              <a
+                href="/townhomes/fort-worth-tx/"
+                title="Fort Worth, TX Townhomes for Rent"
+                >Townhomes for rent Fort Worth</a
+              >
+            </li>
+            <li>
+              <a
+                href="/townhomes/houston-tx/"
+                title="Houston, TX Townhomes for Rent"
+                >Townhomes for rent Houston</a
+              >
+            </li>
+            <li>
+              <a
+                href="/townhomes/los-angeles-ca/"
+                title="Los Angeles, CA Townhomes for Rent"
+                >Townhomes for rent Los Angeles</a
+              >
+            </li>
+            <li>
+              <a
+                href="/townhomes/orlando-fl/"
+                title="Orlando Townhomes for Rent"
+                >Townhomes for rent Orlando</a
+              >
+            </li>
+            <li>
+              <a
+                href="/townhomes/phoenix-az/"
+                title="Phoenix, AZ Homes for Rent"
+                >Townhomes for rent Phoenix</a
+              >
+            </li>
+            <li>
+              <a
+                href="/townhomes/san-antonio-tx/"
+                title="San Antonio, TX Apartments for Rent"
+                >Townhomes for rent San Antonio</a
+              >
+            </li>
+            <li>
+              <a
+                href="/townhomes/charlotte-nc/"
+                title="Charlotte, NC Apartments for Rent"
+                >Townhomes for rent Charlotte</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="linksColumn">
+          <h3>Rentals by State</h3>
+          <ul>
+            <li><a href="/al/">Arizona Rentals</a></li>
+            <li><a href="/ca/">California Rentals</a></li>
+            <li><a href="/co/">Colorado Rentals</a></li>
+            <li><a href="/ct/">Connecticut Rentals</a></li>
+            <li><a href="/de/">Delaware Rentals</a></li>
+            <li><a href="/fl/">Florida Rentals</a></li>
+            <li><a href="/ga/">Georgia Rentals</a></li>
+            <li><a href="/hi/">Hawaii Rentals</a></li>
+            <li><a href="/id/">Idaho Rentals</a></li>
+            <li><a href="/il/">Illinois Rentals</a></li>
+            <li><a href="/in/">Indiana Rentals</a></li>
+            <li><a href="/houses/az/">Houses for rent Arizona</a></li>
+            <li><a href="/houses/co/">Houses for rent Colorado</a></li>
+            <li><a href="/houses/de/">Houses for rent Delaware</a></li>
+            <li><a href="/houses/fl/">Houses for rent Florida</a></li>
+            <li><a href="/houses/ga/">Houses for rent Georgia</a></li>
+            <li><a href="/houses/in/">Houses for rent Indiana</a></li>
+          </ul>
+        </div>
+        <div class="linksColumn">
+          <span>&nbsp;</span>
+          <ul>
+            <li><a href="/me/">Maine Rentals</a></li>
+            <li><a href="/md/">Maryland Rentals</a></li>
+            <li><a href="/ma/">Massachusetts Rentals</a></li>
+            <li><a href="/mi/">Michigan Rentals</a></li>
+            <li><a href="/mn/">Minnesota Rentals</a></li>
+            <li><a href="/nv/">Nevada Rentals</a></li>
+            <li><a href="/nh/">New Hampshire Rentals</a></li>
+            <li><a href="/nj/">New Jersey Rentals</a></li>
+            <li><a href="/ny/">New York Rentals</a></li>
+            <li><a href="/nc/">North Carolina Rentals</a></li>
+            <li><a href="/oh/">Ohio Rentals</a></li>
+            <li><a href="/houses/me/">Houses for rent Maine</a></li>
+            <li><a href="/houses/md/">Houses for rent Maryland</a></li>
+            <li><a href="/houses/mi/">Houses for rent Michigan</a></li>
+            <li><a href="/houses/nj/">Houses for rent New Jersey</a></li>
+            <li><a href="/houses/nc/">Houses for rent North Carolina</a></li>
+            <li><a href="/houses/oh/">Houses for rent Ohio</a></li>
+          </ul>
+        </div>
+        <div class="linksColumn linksLastColumn">
+          <span>&nbsp;</span>
+          <ul>
+            <li><a href="/or/">Oregon Rentals</a></li>
+            <li><a href="/pa/">Pennsylvania Rentals</a></li>
+            <li><a href="/ri/">Rhode Island Rentals</a></li>
+            <li><a href="/sc/">South Carolina Rentals</a></li>
+            <li><a href="/tn/">Tennessee Rentals</a></li>
+            <li><a href="/tx/">Texas Rentals</a></li>
+            <li><a href="/ut/">Utah Rentals</a></li>
+            <li><a href="/vt/">Vermont Rentals</a></li>
+            <li><a href="/va/">Virginia Rentals</a></li>
+            <li><a href="/wa/">Washington Rentals</a></li>
+            <li><a href="/wi/">Wisconsin Rentals</a></li>
+            <li><a href="/houses/or/">Houses for rent Oregon</a></li>
+            <li><a href="/houses/ri/">Houses for rent Rhode Island</a></li>
+            <li><a href="/houses/sc/">Houses for rent South Carolina</a></li>
+            <li><a href="/houses/tn/">Houses for rent Tennessee</a></li>
+            <li><a href="/houses/tx/">Houses for rent Texas</a></li>
+            <li><a href="/houses/va/">Houses for rent Virginia</a></li>
+          </ul>
+        </div>
+      </div>
+      <button class="add" onclick="addClass()">- View less</button>
+    </section>
+    <section id="seclinksSection" class="seclinksSection">
+      <button class="accordion">TOP APARTMENT SEARCHES</button>
+      <button class="accordion">HOUSE RENTALS</button>
+      <button class="accordion">CONDO & TOWNHOME RENTALS</button>
+      <button class="accordion">RENTALS BY STATE</button>
+      <button class="accordion">Rental Manager</button>
+      <button class="accordion">Advertisers</button>
+      <button class="accordion">The Marketplace</button>
+      <button class="accordion">Neighborhoods</button>
+      <button class="accordion">About Us</button>
+    </section>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <iframe
+          frameborder="0"
+          scrolling="no"
+          style="height: 596px; overflow: hidden"
+          src="https://auth.apartments.com/connect/authorize?client_id=apartments&amp;response_type=code&amp;scope=openid+offline_access+profile+email+address+phone+apts_user&amp;redirect_uri=https%3A%2F%2Fwww.apartments.com%2FAuthentication%2FCompleteSignIn&amp;response_mode=form_post&amp;state=uecuPf0VkaSmHStSOaQX3M8iGTw9ec-lY1o8Be7NhAE&amp;nonce=ck8x9MupMaQws3vHNOz3LHI9CBt7fJy2iDgcjALo0AQ&amp;display=popup&amp;locale=en-US"
+          id="iFrameResizer0"
+        ></iframe>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="margin">
+        <div class="footerSocialwrapper">
+          <img src="./img/nav-logo.png" alt="" />
+          <p class="copyright">© 2024 CoStar Group, Inc.</p>
+          <div class="socialicons">
+            <ul>
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-x-twitter"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+              <li><i class="fa-brands fa-linkedin-in"></i></li>
+              <li><i class="fa-brands fa-tiktok"></i></li>
+              <li><i class="fa-brands fa-youtube"></i></li>
+              <li><i class="fa-brands fa-threads"></i></li>
+              <li><i class="fa-solid fa-blog"></i></li>
+            </ul>
+          </div>
+          <p class="eq">
+            <i class="fa-solid fa-house"></i> Equal Housing Opportunity
+          </p>
+        </div>
+        <div class="footerLinksWrapper">
+          <div class="footerLinks first">
+            <span>Advertisers</span>
+            <ul>
+              <li>
+                <a
+                  href=""
+                  title="Advertise your Apartment, Home or Condo for Rent on Apartments.com"
+                  >Advertise</a
+                >
+              </li>
+              <li>
+                <a title="Add your listing on Apartments.com">Add a Property</a>
+              </li>
+              <li>
+                <a href="" title="Digital Feeds Program"
+                  >Digital Feeds Program</a
+                >
+              </li>
+              <li>
+                <a href="" title="Customer Portal">Customer Portal</a>
+              </li>
+              <li>
+                <a href="" title="Apartment Community Resources"
+                  >Community Voice</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footerLinks">
+            <span>The Marketplace</span>
+            <ul>
+              <li>
+                <a href="">Apartamentos.com</a>
+              </li>
+              <li>
+                <a href="">Apartments Canada</a>
+              </li>
+              <li>
+                <a href="">ApartmentFinder.com</a>
+              </li>
+              <li><a href="">ForRent</a></li>
+              <li>
+                <a href="">ApartmentHomeLiving.com</a>
+              </li>
+              <li>
+                <a href="">WestsideRentals.com</a>
+              </li>
+              <li><a href="">Homes.com</a></li>
+              <li><a href="">LoopNet.com</a></li>
+              <li><a href="">Land.com</a></li>
+            </ul>
+          </div>
+          <div class="footerLinks">
+            <span>Neighborhoods</span>
+            <ul>
+              <li>
+                <a
+                  href="/las-colinas-irving-tx/"
+                  title="Las Colinas TX Apartments"
+                  >Las Colinas</a
+                >
+              </li>
+              <li>
+                <a href="/bronx-ny/" title="Apartments for rent Bronx, NY"
+                  >Bronx, NYC</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/federal-hill-baltimore-md/"
+                  title="Federal Hill Baltimore"
+                  >Federal Hill MD</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/east-village-new-york-ny/"
+                  title="East Village Apartments for Rent"
+                  >East Village</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/hyde-park-chicago-il/"
+                  title="Hyde Park Apartments for Rent"
+                  >Hyde Park</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/uptown-minneapolis-minneapolis-mn/"
+                  title="Apartments in Uptown Minneapolis"
+                  >Uptown Minneapolis</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/downtown-austin-austin-tx/"
+                  title="Austin Downtown Apartments for Rent"
+                  >Downtown Austin</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/lincoln-park-chicago-il/"
+                  title="Lincoln Park Chicago Apartments for Rent"
+                  >Lincoln Park</a
+                >
+              </li>
+              <li>
+                <a href="" title="Houston TX Downtown Apartment for Rent"
+                  >Downtown Houston</a
+                >
+              </li>
+              <li>
+                <a href="" title="Apartments Downtown Dallas for Rent"
+                  >Downtown Dallas</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footerLinks">
+            <span>Rental Manager</span>
+            <ul>
+              <li>
+                <a href="" title="Rental Manager Overview">Rental Manager</a>
+              </li>
+              <li>
+                <a href="" title="List Your Property"
+                  >List Your Property For Rent</a
+                >
+              </li>
+              <li>
+                <a href="" title="Screen Applicants">Screen Applicants</a>
+              </li>
+              <li>
+                <a href="" title="Create an Online Rental Lease"
+                  >Create Rental Leases</a
+                >
+              </li>
+              <li>
+                <a href="" title="Automatic Rent Collection"
+                  >Collect Rent Online</a
+                >
+              </li>
+              <li>
+                <a href="" title="Rent Comparable Reports">Rent Comps</a>
+              </li>
+              <li>
+                <a href="" title="Rental Manager Education"
+                  >Rental Manager Resources</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footerLinks last">
+            <span>About Us</span>
+            <ul>
+              <li>
+                <a href="" title="About Apartments.com">About Us</a>
+              </li>
+              <li>
+                <a href="" title="Job Opportunities at Apartments.com"
+                  >Careers</a
+                >
+              </li>
+              <li>
+                <a href="" title="Contact Apartments.com">Contact Us</a>
+              </li>
+              <li>
+                <a href="">Legal Notices</a>
+              </li>
+              <li>
+                <a href="">Privacy Notice</a>
+              </li>
+              <li>
+                <a href="">CA: Do Not Sell My Personal Info</a>
+              </li>
+              <li>
+                <a href="" title="Equal Housing Opportunity">Equal Housing</a>
+              </li>
+              <li>
+                <a href="" title="Avoid Rental Scams and Fraud">Avoid Scams</a>
+              </li>
+              <li>
+                <a href="" title="Accessibility Commitment">Accessibility</a>
+              </li>
+              <li>
+                <a href="" title="Rent Affordability Calculator"
+                  >Rent Calculator</a
+                >
+              </li>
+              <li>
+                <a href="" title="Advice and Resources for Rental Life"
+                  >Renterverse</a
+                >
+              </li>
+              <li><a href="">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function addClass() {
+        var element = document.getElementById("linksSection");
+        element.classList.toggle("clamped");
+      }
+      function addExtraClass() {
+        var element = document.getElementById("mainMenu");
+        element.classList.toggle("show");
+      }
+
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
